@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precedence Constraints Scheduling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Precedence Constraints Scheduling</h1>
+        <button id="addNodeBtn">Kreis hinzufügen</button>
+        <button id="deleteNodeBtn">Kreis löschen</button>
+        <button id="createDependencyBtn">Abhängigkeiten erstellen</button>
+        <button id="editNodeTextBtn">Namen ändern</button>
+        <p>
+            Erstelle Kreise, schreibe hinein, verbinde sie mit Abhängigkeiten, und verschiebe sie. 
+            Linien (Abhängigkeiten) können gelöscht werden, und die optimale Durchlaufanzahl wird berechnet.
+        </p>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <button id="calculateBtn">Berechne optimale Durchlaufanzahl</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
